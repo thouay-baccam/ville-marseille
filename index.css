@@ -53,6 +53,7 @@ header nav a{
     color:black
 }
 .dropdown_contenu a:hover{
+    transition: background-color 0.33s;
     background-color: cornflowerblue;
     color:white;
 }
@@ -76,6 +77,10 @@ footer div{
 footer div a{
     text-decoration:none;
     color:white;
+    padding:0.2em 0
+}
+footer div a:hover{
+    text-decoration: underline;
 }
 #reseaux_sociaux{
     display:flex;
