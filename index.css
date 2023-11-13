@@ -77,3 +77,15 @@ footer div a{
     text-decoration:none;
     color:white;
 }
+#reseaux_sociaux{
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+    padding:0;
+    margin:0
+}
+#reseaux_sociaux img{
+    object-fit: contain;
+    height:1em;
+    margin-right:0.5em
+}
