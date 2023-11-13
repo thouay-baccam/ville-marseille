@@ -1,7 +1,7 @@
 body{
     margin:0;
     font-family: Arial, Helvetica, sans-serif;
-    font-size:16px
+    font-size:16px;
 }
 
 header{
@@ -10,6 +10,9 @@ header{
     justify-content: center;
     padding:1em;
     background-color: cornflowerblue;
+    position:absolute;
+    top: 0;
+    width:100vw
 }
 header nav{
     display: flex;
@@ -50,5 +53,25 @@ header nav a{
 }
 .dropdown_contenu a:hover{
     background-color: cornflowerblue;
+    color:white;
+}
+
+footer {
+    position:absolute;
+    bottom:0;
+    background-color: cornflowerblue;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width:100vw
+}
+footer div{
+    display:flex;
+    flex-direction:column;
+    justify-content: start;
+    padding:1em;
+}
+footer div a{
+    text-decoration:none;
     color:white;
 }
