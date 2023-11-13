@@ -12,7 +12,8 @@ header{
     background-color: cornflowerblue;
     position:absolute;
     top: 0;
-    width:100vw
+    width:100%;
+    box-sizing: border-box;
 }
 header nav{
     display: flex;
@@ -63,7 +64,8 @@ footer {
     display:flex;
     flex-direction: row;
     justify-content:space-around;
-    width:100vw
+    width:100%;
+    box-sizing: border-box;
 }
 footer div{
     display:flex;
