@@ -7,13 +7,20 @@ body{
 header{
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     padding:1em;
-    background-color: cornflowerblue;
+    background-image: linear-gradient(royalblue, cornflowerblue);
     position:absolute;
     top: 0;
     width:100%;
     box-sizing: border-box;
+}
+header img{
+    object-fit: contain;
+    width:20em;
+    padding: 0.5em; /* Pour compenser avec le padding en haut du header */
+    background-color: white;
+    margin-bottom:1em
 }
 header nav{
     display: flex;
@@ -61,7 +68,7 @@ header nav a{
 footer {
     position:absolute;
     bottom:0;
-    background-color: cornflowerblue;
+    background-image: linear-gradient(cornflowerblue, royalblue);
     display:flex;
     flex-direction: row;
     justify-content:space-around;
