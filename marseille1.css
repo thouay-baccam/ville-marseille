@@ -4,3 +4,12 @@ body{
     background-position: top center;
     background-attachment: fixed;
 }
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:2em 8em
+}
+main section p{
+    text-align: center;
+}

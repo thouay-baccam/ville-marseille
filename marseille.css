@@ -11,7 +11,7 @@ header{
     align-items: center;
     padding:1em;
     background-image: linear-gradient(royalblue, cornflowerblue);
-    position:absolute;
+    position:relative;
     top: 0;
     width:100%;
     box-sizing: border-box;
@@ -67,7 +67,7 @@ header nav a{
 }
 
 footer {
-    position:absolute;
+    position:relative;
     bottom:0;
     background-image: linear-gradient(cornflowerblue, royalblue);
     display:flex;
