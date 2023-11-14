@@ -11,6 +11,20 @@ main{
     margin:2em 8em
 }
 
+#intro p {
+    text-align: center;
+}
+#intro h1 {
+    text-align:center;
+    color:orange;
+    font-size:30px;
+}
+
+#actu h2{
+
+    text-align:center;
+}
+
 .news{
     display:flex;
     flex-direction: row;
