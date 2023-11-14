@@ -3,7 +3,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: red;
+    color:white
 }
 section{
     display:flex;
@@ -13,7 +13,12 @@ section{
 section div{
     display: flex;
     flex-direction: row;
-    gap:2em
+    gap:2em;
+}
+section div p{
+    padding:1em;
+    backdrop-filter:brightness(66%) blur(1px);
+    line-height: 1.5;
 }
 section div img{
     object-fit: contain;
@@ -21,17 +26,25 @@ section div img{
 }
 #grece_antique{
     padding:2em 8em;
-    background:url(images/bg/bghistoire1.png)
+    background-image:url(images/bg/bghistoire1.jpg);
+    background-position: bottom;
+    background-size: cover;
 }
 #moyen_age{
     padding:2em 8em;
-    background:url(images/bg/bghistoire2.png)
+    background:url(images/bg/bghistoire2.jpg);
+    background-size: cover;
+    background-position:center
 }
 #revolution{
     padding:2em 8em;
-    background:url(images/bg/bghistoire3.png);
+    background:url(images/bg/bghistoire3.jpg);
+    background-size: cover;
+    background-position:20%
 }
 #industrialisation{
     padding:2em 8em;
-    background:url(images/bg/bghistoire4.png);
+    background:url(images/bg/bghistoire4.jpg);
+    background-size: cover;
+    background-position: 15%;
 }
