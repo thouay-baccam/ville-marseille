@@ -1,0 +1,103 @@
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:16px;
+}
+
+header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding:1em;
+    background-image: linear-gradient(royalblue, cornflowerblue);
+    position:absolute;
+    top: 0;
+    width:100%;
+    box-sizing: border-box;
+}
+header img{
+    object-fit: contain;
+    width:20em;
+    padding: 0.5em; /* Pour compenser avec le padding en haut du header */
+    background-color: white;
+    margin-bottom:1em
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: start;
+}
+header nav a{
+    text-decoration: none;
+    color:white;
+    padding:1em
+}
+.dropdown a{
+    padding:3em 1em
+    /* Il faudrait un fix plus clean pour problème avec margin.*/
+}
+.dropdown > a::after{
+    content:" ▼";
+    font-size: 0.75em;
+}
+.dropdown_contenu{
+    display:none;
+}
+.dropdown:hover .dropdown_contenu{
+    display:flex;
+    position:absolute;
+    flex-direction: column;
+    margin-top:1.2em;
+    padding:0.5em;
+    border-style: solid;
+    border-width:2px;
+    background-color: white;
+    border-color:cornflowerblue;
+}
+.dropdown_contenu a{
+    padding:0.5em;
+    color:black
+}
+.dropdown_contenu a:hover{
+    transition: background-color 0.33s;
+    background-color: cornflowerblue;
+    color:white;
+}
+
+footer {
+    position:absolute;
+    bottom:0;
+    background-image: linear-gradient(cornflowerblue, royalblue);
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    width:100%;
+    box-sizing: border-box;
+}
+footer div{
+    display:flex;
+    flex-direction:column;
+    justify-content: start;
+    padding:1em;
+}
+footer div a{
+    text-decoration:none;
+    color:white;
+    padding:0.2em 0
+}
+footer div a:hover{
+    text-decoration: underline;
+}
+#reseaux_sociaux{
+    display:flex;
+    flex-direction: row;
+    justify-content: start;
+    padding:0;
+    margin:0
+}
+#reseaux_sociaux img{
+    object-fit: contain;
+    height:1em;
+    margin-right:0.5em
+}
