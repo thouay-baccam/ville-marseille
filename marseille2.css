@@ -1,6 +1,37 @@
 /* POUR LA PAGE HISTOIRE */
-body{
-    background:url(images/bg/bghistoire.png);
-    background-position: top center;
-    background-attachment: fixed;
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: red;
+}
+section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+section div{
+    display: flex;
+    flex-direction: row;
+    gap:2em
+}
+section div img{
+    object-fit: contain;
+    width:16em;
+}
+#grece_antique{
+    padding:2em 8em;
+    background:url(images/bg/bghistoire1.png)
+}
+#moyen_age{
+    padding:2em 8em;
+    background:url(images/bg/bghistoire2.png)
+}
+#revolution{
+    padding:2em 8em;
+    background:url(images/bg/bghistoire3.png);
+}
+#industrialisation{
+    padding:2em 8em;
+    background:url(images/bg/bghistoire4.png);
 }
