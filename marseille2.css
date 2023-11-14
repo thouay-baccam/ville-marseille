@@ -17,7 +17,7 @@ section div{
 }
 section div p{
     padding:1em;
-    backdrop-filter:brightness(66%) blur(1px);
+    backdrop-filter:brightness(50%) blur(1px);
     line-height: 1.5;
 }
 section div img{
