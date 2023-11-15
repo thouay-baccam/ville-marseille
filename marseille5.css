@@ -1,0 +1,50 @@
+/* POUR LA PAGE PARCS */
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:rgb(255, 255, 255)
+}
+section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+section div{
+    display: flex;
+    flex-direction: row;
+    gap:2em;
+}
+section div p{
+    padding:1em;
+    backdrop-filter:brightness(50%) blur(1px);
+    line-height: 1.5;
+}
+section div img{
+    object-fit: contain;
+    width:16em;
+}
+#borely{
+    padding:2em 8em;
+    background-image:url(images/bg/bgparc1.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+#centenaire{
+    padding:2em 8em;
+    background:url(images/bg/bgparc2.jpg);
+    background-size: cover;
+    background-position:center
+}
+#obscure{
+    padding:2em 8em;
+    background:url(images/bg/bgparc3.jpg);
+    background-size: cover;
+    background-position:20%
+}
+#longchamps{
+    padding:2em 8em;
+    background:url(images/bg/bgparc4.jpg);
+    background-size: cover;
+    background-position: 15%;
+}
