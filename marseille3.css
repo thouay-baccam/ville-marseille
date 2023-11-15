@@ -10,3 +10,41 @@ section{
     flex-direction: column;
     align-items: center;
 }
+section div{
+    display: flex;
+    flex-direction: row;
+    gap:2em;
+}
+section div p{
+    padding:1em;
+    backdrop-filter:brightness(50%) blur(1px);
+    line-height: 1.5;
+}
+section div img{
+    object-fit: contain;
+    width:16em;
+}
+#sugiton{
+    padding:2em 8em;
+    background-image:url(images/bg/bgrando1.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+#moyen_age{
+    padding:2em 8em;
+    background:url(images/bg/bghistoire2.jpg);
+    background-size: cover;
+    background-position:center
+}
+#revolution{
+    padding:2em 8em;
+    background:url(images/bg/bghistoire3.jpg);
+    background-size: cover;
+    background-position:20%
+}
+#industrialisation{
+    padding:2em 8em;
+    background:url(images/bg/bghistoire4.jpg);
+    background-size: cover;
+    background-position: 15%;
+}
