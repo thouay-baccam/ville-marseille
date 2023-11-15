@@ -3,7 +3,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color:white
+    color:rgb(255, 255, 255)
 }
 section{
     display:flex;
@@ -30,21 +30,21 @@ section div img{
     background-position: bottom;
     background-size: cover;
 }
-#moyen_age{
+#cretes{
     padding:2em 8em;
-    background:url(images/bg/bghistoire2.jpg);
+    background:url(images/bg/bgrando2.jpg);
     background-size: cover;
     background-position:center
 }
-#revolution{
+#niolon{
     padding:2em 8em;
-    background:url(images/bg/bghistoire3.jpg);
+    background:url(images/bg/bgrando3.jpg);
     background-size: cover;
     background-position:20%
 }
-#industrialisation{
+#etoile{
     padding:2em 8em;
-    background:url(images/bg/bghistoire4.jpg);
+    background:url(images/bg/bgrando4.jpg);
     background-size: cover;
     background-position: 15%;
 }
