@@ -48,3 +48,13 @@ section div img{
     background-size: cover;
     background-position: 15%;
 }
+
+@media only screen and (max-width:1200px) {
+    section div{
+        flex-direction:column
+    }
+    #moyen_age div,
+    #industrialisation div{
+        flex-direction: column-reverse
+    }
+}
