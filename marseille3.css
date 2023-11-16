@@ -10,7 +10,8 @@ section{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height:42em
+    height:42em;
+    padding:2em 8em;
 }
 section div{
     flex-direction: row;
@@ -27,30 +28,30 @@ section:hover div{
     opacity: 100%
 }
 #sugiton{
-    padding:2em 8em;
     background-image:url(images/bg/bgrando1.jpg);
     background-position: bottom;
     background-size: cover;
 }
 #cretes{
-    padding:2em 8em;
     background:url(images/bg/bgrando2.jpg);
     background-size: cover;
     background-position:center
 }
 #niolon{
-    padding:2em 8em;
     background:url(images/bg/bgrando3.jpg);
     background-size: cover;
     background-position:20%
 }
 #etoile{
-    padding:2em 8em;
     background:url(images/bg/bgrando4.jpg);
     background-size: cover;
     background-position: 15%;
 }
 @media only screen and (max-width:850px){
+    section{
+        height:auto;
+        padding:1em 0.5em
+    }
     section div{
         opacity:100%
     }
