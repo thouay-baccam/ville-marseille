@@ -1,4 +1,4 @@
-/* POUR LA PAGE PARCS */
+/* POUR LA PAGE PARC */
 main{
     display: flex;
     flex-direction: column;
@@ -8,21 +8,23 @@ main{
 section{
     display:flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
+    height:42em
 }
 section div{
-    display: flex;
     flex-direction: row;
+    justify-content: end;
     gap:2em;
-}
-section div p{
     padding:1em;
     backdrop-filter:brightness(50%) blur(1px);
     line-height: 1.5;
+    opacity: 0%;
+    transition: opacity 1s;
 }
-section div img{
-    object-fit: contain;
-    width:16em;
+section:hover div{
+    transition: opacity 1s;
+    opacity: 100%
 }
 #borely{
     padding:2em 8em;

@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.directory-entry {
+    margin-bottom: 20px;
+    margin-top:80px;
+}
+
+.directory-entry img {
+    max-width: 100%;
+    max-height: 200px; /* Ajuste cette valeur selon tes besoins */
+    height: auto;
+    cursor: pointer;
+}
+
+
+.contact-info {
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: top;
+}
+
+.location-description {
+    margin-top: 10px;
+}
