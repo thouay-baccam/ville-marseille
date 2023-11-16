@@ -50,3 +50,8 @@ section:hover div{
     background-size: cover;
     background-position: 15%;
 }
+@media only screen and (max-width:850px){
+    section div{
+        opacity:100%
+    }
+}
