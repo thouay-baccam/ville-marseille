@@ -72,3 +72,14 @@ main{
 .news-box:hover p{
     opacity: 1;
 }
+
+@media only screen and (max-width:700px){
+    main{
+        margin:1em 0.5em
+    }
+    .news{
+        flex-wrap:nowrap;
+        overflow-x:scroll;
+        justify-content: start;
+    }
+}
