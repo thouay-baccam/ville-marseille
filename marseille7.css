@@ -2,6 +2,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background:url(images/bg/bgaccueil.png);
+    background-position: top center;
+    background-attachment: fixed;
 }
 
 .contact-form {

@@ -2,27 +2,42 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-}
-
-.directory-entry {
-    margin-bottom: 20px;
-    margin-top:80px;
-}
-
-.directory-entry img {
-    max-width: 100%;
-    max-height: 200px; /* Ajuste cette valeur selon tes besoins */
-    height: auto;
-    cursor: pointer;
-}
-
-
-.contact-info {
-    display: inline-block;
-    margin-left: 20px;
-    vertical-align: top;
-}
-
-.location-description {
-    margin-top: 10px;
-}
+    background:url(images/bg/bgaccueil.png);
+    background-position: top center;
+    background-attachment: fixed;
+    }
+    
+    table {
+        width: 80%;
+        margin: 20px auto;
+        margin-top:150px;
+        margin-bottom:150px;
+        border-collapse: collapse;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ajout d'une ombre légère */
+    }
+    
+    th, td {
+        padding: 15px;
+        text-align: center;
+        border-bottom: 1px solid #ddd;
+    }
+    
+    th {
+        background-color: #4CAF50; /* Couleur de fond pour les cellules d'en-tête */
+        color: white; /* Couleur du texte pour les cellules d'en-tête */
+    }
+    
+    td {
+        background-color: #f9f9f9; /* Couleur de fond pour les cellules de données */
+    }
+    
+    a {
+        color: #3498db; /* Couleur du lien */
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    a:hover {
+        text-decoration: underline; /* Soulignement lorsqu'on survole le lien */
+    }
+    
